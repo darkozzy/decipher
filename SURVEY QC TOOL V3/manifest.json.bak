@@ -1,0 +1,30 @@
+{
+  "name": "Survey QC",
+  "version": "2.0",
+  "manifest_version":2,
+  "description": "Nielsen US - Survey Testing Made Easy!",
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup" : "Shiva.html"
+  },
+  "permissions": [
+	"https://surveys.harrisinsights.com/survey/selfserve/*",
+	"https://na.surveys.nielsen.com/survey/selfserve/*",
+	"https://ugam.decipherinc.com/*",
+    "tabs", 
+    "clipboardWrite",
+    "contextMenus",
+    "clipboardRead",
+    "cookies",
+    "debugger",
+    "unlimited_storage",
+	"tts"
+  ],
+  "content_scripts": [
+    {
+      "matches": [ "https://surveys.harrisinsights.com/survey/selfserve/*","https://na.surveys.nielsen.com/survey/selfserve/*","https://ugam.decipherinc.com/*" ,"https://walmart.decipherinc.com/survey/selfserve/*"],
+      "css":["myCSS.css","jquery-ui.css"],
+      "js": ["jquery-1.10.2.js", "MintX.js","jquery-ui.js","shortcut.js"]
+    }
+  ]
+}

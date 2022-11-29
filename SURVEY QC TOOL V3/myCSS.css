@@ -1,0 +1,210 @@
+			#LightSwitchNavigatorsParent{
+				display:none;
+        		position: absolute;
+        		top: 2px;
+        		left: 6px;
+        		width: auto;
+        		left: 2px;
+        		font: bold 12px Helvetica, Arial, sans-serif;
+        	}
+        	.LightSwitch,#LightSwitchDynNote{
+        		font: bold 12px Helvetica, Arial, sans-serif;
+        		color: #6e6e6e
+        	}
+	        .LightSwitchNavigators,#LightSwitchNoteExportButton{
+	        	color: #6e6e6e;
+			    font: bold 12px Helvetica, Arial, sans-serif;
+			    text-decoration: none;
+			    padding: 5px 12px;
+			    position: relative;
+			    display: inline-block;
+			    text-shadow: 0 1px 0 #fff;
+			    -webkit-transition: border-color .218s;
+			    -moz-transition: border .218s;
+			    -o-transition: border-color .218s;
+			    transition: border-color .218s;
+			    background: #f3f3f3;
+			    background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+			    background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+			    border: solid 1px #dcdcdc;
+			    border-radius: 2px;
+			    -webkit-border-radius: 2px;
+			    -moz-border-radius: 2px;
+	        }
+	        .LightSwitchLOGO{
+			    font: bold 12px Helvetica, Arial, sans-serif;
+			    text-decoration: none;
+			    padding: 5px 12px;
+			    position: relative;
+			    display: inline-block;
+			    -webkit-transition: border-color .218s;
+			    -moz-transition: border .218s;
+			    -o-transition: border-color .218s;
+			    transition: border-color .218s;
+			    background-color: black;
+			    border: solid 1px #dcdcdc;
+			    border-radius: 2px;
+			    -webkit-border-radius: 2px;
+			    -moz-border-radius: 2px;
+			    width: 90%;
+			    cursor: pointer
+	        }
+	        .LightSwitchNavigators:hover{
+			    color: #333;
+			    border-color: #999;
+			    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+			    -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+			    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+			    text-decoration: none
+			}
+			.LightSwitchNavigators:active{
+			    color: #000;
+			    border-color: #444;
+			    text-decoration: none
+			}
+			.LightSwitch input[type="radio"],.LightSwitch input[type="checkbox"]{
+				color:#F0F0F0;
+			} 
+			
+			.LightSwitch label{
+				cursor: pointer
+			}
+			.LightSwitchBox{
+				display: none
+			}
+			#LightSwitchMenuBoxes{
+				position: absolute;
+				top: 2px;
+				right: 2px;
+				width: 300px;
+				padding-right: 10px
+			}
+			.LightSwitchMenuEach{
+				border: 1px solid #FF9900;
+			}
+			.LightSwitchBox{
+				background-color: #F0F0F0
+			}
+			#LightSwitchMenuBoxes .LightSwitchNavigators{
+				cursor: pointer
+			}
+			input[type="radio"], 
+			input[type="checkbox"] {
+			    height: 15px;
+			    width: 15px;
+			    vertical-align: middle;
+			    margin: 0 5px 5px 0;
+			    border: 1px solid #A5A5A5;
+			    background: -webkit-linear-gradient(#FCFCFC, #DADADA);
+			    -webkit-border-radius: 8px;
+			    border-radius: 8px;
+			    -webkit-appearance: none;
+			    -webkit-transition: box-shadow 200ms;
+			}
+			/* inset shadows */
+			input[type="radio"]:not(:disabled), 
+			input[type="checkbox"]:not(:disabled) {
+			    box-shadow:inset 1px 1px 0 #fff, 0 1px 1px rgba(0,0,0,0.1);
+			}
+			
+			/* decrease border radius for checkbox */
+			input[type="checkbox"] {
+			    -webkit-border-radius:2px;
+			    border-radius:2px;
+			}
+			
+			/* hover state */
+			input[type="radio"]:not(:disabled):hover,
+			input[type="checkbox"]:not(:disabled):hover {
+			    border-color:rgba(0,0,0,0.4);
+			    box-shadow:inset 1px 1px 0 #fff, 0 0 4px rgba(0,0,0,0.2);
+			}
+			
+			/* active state */
+			input[type="radio"]:active:not(:disabled),
+			input[type="checkbox"]:active:not(:disabled) {
+			    background-image: -webkit-linear-gradient(#C2C2C2, #EFEFEF);
+			    box-shadow:inset 1px 1px 0 rgba(0,0,0,0.2), inset -1px -1px 0 rgba(255,255,255,0.6);
+			    border-color:#707070;
+			}
+			
+			/* focus state */
+			input[type="radio"]:focus,
+			input[type="checkbox"]:focus {
+			    outline:none;
+			    box-shadow: 0 0 1px 2px rgba(0,240,255,0.4);
+			}
+			
+			/* input checked border color */
+			input[type="radio"]:checked,
+			input[type="checkbox"]:checked {
+			    border-color:#707070;
+			}
+			
+			/* radio checked bg */
+			input[type="radio"]:checked,
+			input[type="radio"]:checked:active {
+			    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAMAAADXT/YiAAAAVFBMVEX///9eXl5RUVEzMzMbGxszMzNRUVEiIiJRUVFFRUUzMzMiIiJFRUUzMzNRUVFRUVE6OjorKysiIiJRUVFFRUU6OjozMzMrKytRUVFFRUUzMzMrKyvGHNe0AAAAHHRSTlMAERERESJmZnd3d3eIiJmqqqqqzMzMzMzd3d3dIlELBQAAAEFJREFUCNdjYEACLOxC3CwgBrOgtLi4ICuQxSUlBgS8QJaAKAgIAFmckiIiIpI8QBYTn4SwBD8TSAsjGz8HI7JhAH1fArjBaKLrAAAAAElFTkSuQmCC") center no-repeat, -webkit-linear-gradient(#FCFCFC, #DFDFDF);
+			}
+			
+			/* checkbox checked bg */
+			input[type="checkbox"]:checked,
+			input[type="checkbox"]:checked:active {
+			    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAMAAADXT/YiAAAAOVBMVEX///8zMzMqKipCQkI8PDwzMzNISEhISEhISEhCQkIqKio8PDwzMzMqKipISEhCQkI8PDwzMzMqKipFad0NAAAAE3RSTlMAIiIzMzNEZnd3qru7u8zMzMzMuKlnZwAAADhJREFUCNdjYIACJhjNJQRl8ApBWIw8goKsDDw8UAaDgAA3t4AAC1CGkx8ImMGKOPj42KAmsEMYAEUyAa2GdxXhAAAAAElFTkSuQmCC") center no-repeat, -webkit-linear-gradient(#FCFCFC, #DFDFDF);
+			}
+			
+			/* disabled input */
+			input:disabled {
+			    opacity:.6;
+			    border-color:#aaa;
+			    box-shadow:0;
+			}
+			
+			/* style label for disabled input */
+			input:disabled + label {
+			    color:#666;
+			    cursor:default;
+			    -webkit-user-select: none;
+			}
+			#LightSwitchPropertiesBox div{
+				overflow: auto;
+				overflow-x: auto;
+				min-height: 0px;
+				max-height: 300px;
+				max-width: 295px;
+				white-space: pre-wrap;
+			}
+			#LightSwitchQuestion{
+				width: 10px
+			}
+			#LightSwitchNotepadExportArea{
+				max-height: 400px;
+				overflow: scroll;
+				max-width: 250px
+			}
+			.Lnk{
+				text-decoration: none
+			}
+			
+	
+			/*Jquery UI*/
+			.no-close .ui-dialog-titlebar-close {
+				display: none;
+			}
+			.ui-button, .ui-dialog-titlebar, .ui-widget-header {
+				font-size: 12px;
+				background-color: #EC9D9D;
+			}
+			.ui-dialog-buttonpane .ui-widget-content .ui-helper-clearfix {
+				margin:0px;
+				padding:0px;
+				font-size: 12px;
+			}
+			.ui-dialog{
+				box-shadow: 1px 1px 1px 2px darkred;
+			}
+			.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix.ui-draggable-handle {
+				background-color: brown;
+				color: white;
+			}
+			
